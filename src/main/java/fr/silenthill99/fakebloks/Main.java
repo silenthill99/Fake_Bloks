@@ -30,6 +30,6 @@ public class Main
 
     private void clientSetup(FMLClientSetupEvent event)
     {
-        RenderTypeLookup.setRenderLayer(ModBlocks.FAKE_STONE.get(), RenderType.cutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.FAKE_STONE.get(), RenderType.solid());
     }
 }
