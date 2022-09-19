@@ -1,7 +1,7 @@
 package fr.silenthill99.fakebloks;
 
+import fr.silenthill99.fakebloks.init.ModBlocks;
 import fr.silenthill99.fakebloks.init.ModItems;
-import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -19,6 +19,7 @@ public class Main
         bus.addListener(this::setup);
         bus.addListener(this::clientSetup);
         ModItems.ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
     }
 
     private void setup(FMLCommonSetupEvent event)
