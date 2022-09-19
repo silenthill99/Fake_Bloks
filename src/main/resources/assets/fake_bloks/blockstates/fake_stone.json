@@ -1,7 +1,7 @@
 {
-  "variant": {
+  "variants": {
     "": {
-      "model": "fake_bloks:block_fake_stone"
+      "model": "fake_bloks:block/fake_stone"
     }
   }
 }

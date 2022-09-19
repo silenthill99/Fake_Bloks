@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "fake_stone:item/block.png"
+    "all": "fake_bloks:block/stone"
   }
 }
