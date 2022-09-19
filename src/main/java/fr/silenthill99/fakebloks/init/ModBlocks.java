@@ -1,6 +1,7 @@
 package fr.silenthill99.fakebloks.init;
 
 import fr.silenthill99.fakebloks.Main;
+import fr.silenthill99.fakebloks.init.blocks.FakeCobbleStone;
 import fr.silenthill99.fakebloks.init.blocks.FakeStone;
 import fr.silenthill99.fakebloks.utils.ModItemGroups;
 import net.minecraft.block.Block;
@@ -17,6 +18,7 @@ public class ModBlocks
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Main.MODID);
 
     public static final RegistryObject<Block> FAKE_STONE = createBlock("fake_stone", FakeStone::new);
+    public static final RegistryObject<Block> FAKE_COBBLE = createBlock("fake_cobblestone", FakeCobbleStone::new);
 
     private static RegistryObject<Block> createBlock(String id, Supplier<? extends Block> supplier)
     {

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fake_bloks:block/fake_cobblestone"
+    }
+  }
+}
