@@ -2,8 +2,6 @@ package fr.silenthill99.fakebloks;
 
 import fr.silenthill99.fakebloks.init.ModBlocks;
 import fr.silenthill99.fakebloks.init.ModItems;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -30,6 +28,5 @@ public class Main
 
     private void clientSetup(FMLClientSetupEvent event)
     {
-        RenderTypeLookup.setRenderLayer(ModBlocks.FAKE_STONE.get(), RenderType.solid());
     }
 }
